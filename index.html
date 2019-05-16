@@ -20,7 +20,8 @@
     <h2>Test your Results</h2>
     Copy all your TRUE/FALSE data (hint: select by clicking the column header), and paste it here to be evaluated.
     <br />
-    <textarea id="input-data" rows="25" cols="30"></textarea>
+    <form action="https://2vez1l4d0a.execute-api.us-east-1.amazonaws.com/default/scoreSepsisDiagnosis" method="post">
+    <textarea id="input-data" name="diagnoses" rows="25" cols="30"></textarea>
     <br />
     <button id="submit-btn">Evaluate</button>
   </body>
